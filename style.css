@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+    --primary-color: #f3f1f5;
+}
+p{
+    font-size: 0.75rem;
+}
+.Login{
+    width: 550px;
+    background-color: rgb(201, 201, 204);
+    display: grid;
+    grid-template-columns: 55% 45%;
+    gap: 0.8rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.Image-wrapper{
+    height: 100%;
+}
+.Image-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+input{
+    padding: 8px 12px;
+    border: .8px solid rgb(128, 128, 128);
+    border-radius: 5px;
+}
+.resetPassword{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reset.button{
+    display: flex;
+    gap: 0.2rem;
+    padding: 5px 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+}
+.reset > p {
+    font-size: 0.9rem;
+}
+.login-with{
+    text-align: center;
+    color: #0a0a0a;
+}
+.socialLogin{
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+}
+.socialLogin button{
+   display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 5px 10px;
+    border: .8px solid rgb(128, 128, 128);
+    border-radius: 5px;
+}
+.signup{
+    text-align: center;
+    color: #161616;
+}
+.signup a{
+
+    text-decoration: underline;
+}
+.welcome{
+    color: #141414;
+}
